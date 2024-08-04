@@ -33,7 +33,7 @@ export default function CreateTask(props) {
                     name="title"
                     value={task.title}
                     onChange={detectChange}
-                    placeholder="Başlık"
+                    placeholder="Pozisyonunuzu Giriniz"
                 />
                 <textarea
                     name="content" // Ensure this matches the 'content' property in the state
@@ -41,9 +41,9 @@ export default function CreateTask(props) {
                     rows={3}
                     value={task.content}
                     onChange={detectChange}
-                    placeholder='İşinizi Yazınız'
+                    placeholder='Mesleğinizi Giriniz'
                 ></textarea>
-                <button className="btn btn-primary todoButton" onClick={submitTask}>Görevi Ekle</button>
+                <button className="btn btn-primary todoButton" onClick={submitTask}>Ekle</button>
             </form>
         </div>
     );
