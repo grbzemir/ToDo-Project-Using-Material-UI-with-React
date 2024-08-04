@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+header {
+  background-color: lightblue;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+}
