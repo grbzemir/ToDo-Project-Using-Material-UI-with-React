@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import CreateTask from './CreateTask';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
