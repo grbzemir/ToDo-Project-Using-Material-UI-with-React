@@ -14,3 +14,24 @@ header {
   display: flex;
   justify-content: center;
 }
+
+.todoDivArea {
+  display: flex;
+  justify-content: center;
+}
+
+.todoDiv {
+  padding: 20px;
+  width: 250px;
+  border: 1px solid lightblue;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.todoText {
+  border: none;
+}
+
+.todoButton {
+  width: 100px;
+}
